@@ -1,6 +1,6 @@
 # Machine learning project: <br> Womxn in Big Data South Africa: Female-Headed Households in South Africa
 
-Jana Conradi, Christine Merkel, Alexandra Zimmermann <br>
+Jana Conradi, Christine Merkel, Alexandra Zimmermann-Rösner <br>
 
 <sup><sup>(This project was originally a Zindi competion. More info:  [Zindi competition](https://zindi.africa/competitions/womxn-in-big-data-south-africa-female-headed-households-in-south-africa/data) )
  <br>
