@@ -1,18 +1,44 @@
-# ds-modeling-pipeline
-Skeleton project for building a simple model in python script
-This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
+# Machine learning project: <br> Womxn in Big Data South Africa: Female-Headed Households in South Africa
 
-Data used is the  [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Jana Conradi, Christine Merkel, Alexandra Zimmermann <br>
 
-##
-Requirements:
+<sup><sup>(This project was originally a Zindi competion. More info:  [Zindi competition](https://zindi.africa/competitions/womxn-in-big-data-south-africa-female-headed-households-in-south-africa/data) )
+ <br>
+
+
+
+ Duration: 03.11.2021 - 05.11.2021 <br>
+ Presentation: 08.11.2021
+
+## About
+South Africa is divided into over 4,000 wards.
+The project is about predicting the target variable. 
+The target variable of interest is the percentage of households per ward that are both female-headed and earn an annual income that is below R19,600 (approximately $2,300 USD in 2011). For context, the poverty line in South Africa is defined as R1,183 per month per person and the average individual salary in South Africa is R20,860 per month.<br><br>
+The project has several notebooks: <br>
+- The baseline model (see [here](baseline_model.ipynb)) 
+- The models we used (see [here](models/)) 
+- The final model (see [here](models/xgb.ipynb)) 
+- EDA (see [here](EDA.ipynb)) 
+
+## Data
+- 2822 observations <br>
+- 64 variables : <br>
+   - housing forms
+   - school attendance
+   - access to water
+   - school attendance
+   - language
+   - population group
+   - household with car
+   - household with tv
+   - ...
+
+
+
+## Requirements:
 - pyenv with Python: 3.9.4
 
-### Environment
-
-Same procedure as last time...
-
-Use the requirements file in this repo to create a new environment.
+## Environment
 
 ```BASH
 make setup 
@@ -23,31 +49,8 @@ pyenv local 3.9.4
 python -m venv .venv
 pip install --upgrade pip
 pip install -r requirements.txt
-```
-
-If You encounter errors related to statsmodels, try:
-
-```BASH
-OPENBLAS="$(brew --prefix openblas)" pip install numpy statsmodels
-```
-
-## Usage
-
-In order to train the model and store test data in the data folder and the model in models run:
-
-```bash
-#activate env
 source .venv/bin/activate
-
-python train.py  
 ```
 
-In order to test that predict works on a test set you created run:
 
-```bash
-python predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
-```
 
-## Limitations
-
-development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible
