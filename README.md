@@ -17,7 +17,6 @@ The target variable of interest is the percentage of households per ward that ar
 The project has several notebooks: <br>
 - The baseline model (see [here](baseline_model.ipynb)) 
 - The models we used (see [here](models/)) 
-- The final model (see [here](models/xgb.ipynb)) 
 - EDA (see [here](EDA.ipynb)) 
 
 ## Data
