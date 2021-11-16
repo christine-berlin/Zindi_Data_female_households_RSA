@@ -19,6 +19,8 @@ The project has several notebooks: <br>
 - The models we used (see [here](models/)) 
 - EDA (see [here](EDA.ipynb)) 
 
+The presentation slides are here : [slides](presentation.pdf)
+
 ## Data
 - 2822 observations <br>
 - 64 variables : <br>
