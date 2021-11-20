@@ -13,7 +13,7 @@ Jana Conradi, Christine Merkel, Alexandra Zimmermann-Rösner <br>
 ## About
 South Africa is divided into over 4,000 wards.
 The project is about predicting the target variable. 
-The target variable of interest is the percentage of households per ward that are both female-headed and earn an annual income that is below 19,600 R (approximately $2,300 USD in 2011). For context, the poverty line in South Africa is defined as R1,183 per month per person and the average individual salary in South Africa is R20,860 per month.<br><br>
+The target variable of interest is the percentage of households per ward that are both female-headed and earn an annual income that is below 19,600 R (approximately $2,300 USD in 2011). For context, the poverty line in South Africa is defined as R1,183 per month per person and the average individual salary in South Africa is 20,860 R per month.<br><br>
 The project has several notebooks: <br>
 - The baseline model (see [here](baseline_model.ipynb)) 
 - The models we used (see [here](models/)) 
