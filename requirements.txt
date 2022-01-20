@@ -9,5 +9,3 @@ pytest==6.2.5
 testbook==0.4.2
 cmake==3.18.0
 xgboost==1.5.1
-#pip install cmake
-#pip install xgboost
